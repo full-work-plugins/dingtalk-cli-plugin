@@ -1,6 +1,6 @@
 {
   "name": "dingtalk-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use the local DingTalk Workspace CLI for messages, docs, tables, calendars, and tasks.",
   "author": {
     "name": "PartMe.AI"
@@ -19,10 +19,12 @@
   ],
   "displayName": "DingTalk CLI (Office Collaboration)",
   "description_i18n": {
-    "zh-CN": "通过本机钉钉 Workspace CLI 处理消息、文档、表格、日程和待办。"
+    "en": "Use the local DingTalk Workspace CLI for messages, docs, tables, calendars, and tasks.",
+    "zh-CN": "钉钉 Workspace CLI 工作流：OAuth/设备授权、组织账号验证与消息、文档、日程操作。"
   },
   "skills": "./skills/",
   "displayName_i18n": {
-    "zh-CN": "DingTalk CLI（办公协作）"
+    "en": "DingTalk CLI (Office Collaboration)",
+    "zh-CN": "钉钉 CLI"
   }
 }

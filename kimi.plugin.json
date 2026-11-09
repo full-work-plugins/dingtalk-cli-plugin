@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dingtalk-cli",
   "version": "0.1.0",
-  "description": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
+  "description": "Use the local DingTalk Workspace CLI for messages, docs, tables, calendars, and tasks.",
   "author": {
     "name": "PartMe.AI"
   },
@@ -18,9 +18,12 @@
     "calendar",
     "tasks"
   ],
-  "displayName": "钉钉 CLI",
+  "displayName": "DingTalk CLI (Office Collaboration)",
   "interface": {
-    "displayName": "钉钉 CLI",
-    "shortDescription": "钉钉 Workspace CLI 工作流：OAuth/设备授权、验证组织账号，并按需安装上游 Skills。"
+    "displayName": "DingTalk CLI (Office Collaboration)",
+    "shortDescription": "DingTalk messages, documents, and calendars via local CLI."
+  },
+  "displayName_i18n": {
+    "zh-CN": "DingTalk CLI（办公协作）"
   }
 }

@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dingtalk-cli",
   "version": "0.1.0",
-  "description": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
+  "description": "Use the local DingTalk Workspace CLI for messages, docs, tables, calendars, and tasks.",
   "author": {
     "name": "PartMe.AI"
   },
@@ -17,5 +17,13 @@
     "docs",
     "calendar",
     "tasks"
-  ]
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DingTalk CLI (Office Collaboration)",
+        "shortDescription": "DingTalk messages, documents, and calendars via local CLI."
+      }
+    }
+  }
 }

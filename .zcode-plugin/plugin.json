@@ -1,7 +1,7 @@
 {
   "name": "dingtalk-cli",
   "version": "0.1.0",
-  "description": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
+  "description": "Use the local DingTalk Workspace CLI for messages, docs, tables, calendars, and tasks.",
   "author": {
     "name": "PartMe.AI"
   },
@@ -17,10 +17,12 @@
     "calendar",
     "tasks"
   ],
-  "displayName": "钉钉 CLI",
+  "displayName": "DingTalk CLI (Office Collaboration)",
   "description_i18n": {
-    "en": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
-    "zh-CN": "钉钉 Workspace CLI 工作流：OAuth/设备授权、验证组织账号，并按需安装上游 Skills。"
+    "zh-CN": "通过本机钉钉 Workspace CLI 处理消息、文档、表格、日程和待办。"
   },
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "displayName_i18n": {
+    "zh-CN": "DingTalk CLI（办公协作）"
+  }
 }

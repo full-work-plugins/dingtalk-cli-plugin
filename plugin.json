@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dingtalk-cli",
+  "version": "0.1.0",
+  "description": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
+  "author": {
+    "name": "PartMe.AI"
+  },
+  "homepage": "https://github.com/full-work-plugins/dingtalk-cli-plugin",
+  "repository": "https://github.com/full-work-plugins/dingtalk-cli-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dingtalk",
+    "dws",
+    "workspace",
+    "chat",
+    "docs",
+    "calendar",
+    "tasks"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "dingtalk-cli",
+  "version": "0.1.2",
+  "description": "Use the local DingTalk Workspace CLI for messages, docs, tables, calendars, and tasks.",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.png",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*": "./locale/*"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "lib/index.js",
+    "icon.png",
+    "README.md",
+    "locale"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "dingtalk",
+    "dws",
+    "workspace",
+    "chat",
+    "docs",
+    "calendar",
+    "tasks"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "private": true
+}
